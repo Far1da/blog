@@ -11,3 +11,4 @@ urlpatterns = [
     ),
     path("", RedirectView.as_view(url=reverse_lazy("post-list"), permanent=False)),
 ]
+
